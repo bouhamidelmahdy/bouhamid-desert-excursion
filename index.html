@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bouhamid Desert Excursion Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-bg"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 id="brand">Bouhamid Desert Excursion</h1>
+      <div class="controls">
+        <div class="lang-switch">
+          <button id="enBtn" class="active">EN</button>
+          <button id="arBtn">AR</button>
+        </div>
+        <a id="whatsapp-top" class="whatsapp-top" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2 data-en="Discover unforgettable desert adventures" data-ar="اكتشف مغامرات صحراوية لا تُنسى" id="hero-title">Discover unforgettable desert adventures</h2>
+      <p data-en="Authentic tours in Morocco — Merzouga, Zagora, Essaouira, Ouarzazate and more." data-ar="جولات أصيلة في المغرب — مرزوكة، زاكورة، الصويرة، ورزازات والمزيد." id="hero-sub">Authentic tours in Morocco — Merzouga, Zagora, Essaouira, Ouarzazate and more.</p>
+      <a class="cta" href="#tours" id="cta-text" data-en="View Tours" data-ar="شوف الرحلات">View Tours</a>
+    </section>
+
+    <section id="tours" class="tours">
+      <h3 data-en="Our Tours & Prices" data-ar="الرحلات والأسعار" id="tours-title">Our Tours & Prices</h3>
+      <div class="tour-grid">
+        <!-- Card: Merzouga -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/merzouga.jpg" alt="Merzouga">
+          <div class="card-info">
+            <h4 data-en="Merzouga Desert Tour" data-ar="جولة صحراء مرزوكة">Merzouga Desert Tour</h4>
+            <div class="price" data-price="80€">80€</div>
+          </div>
+        </article>
+
+        <!-- Zagora -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/zagoura.jpg" alt="Zagora">
+          <div class="card-info">
+            <h4 data-en="Zagora Desert Trip" data-ar="رحلة صحراء زاكورة">Zagora Desert Trip</h4>
+            <div class="price" data-price="60€">60€</div>
+          </div>
+        </article>
+
+        <!-- Ouzoud -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/ouzoud_waterfalls.jpg" alt="Ouzoud Waterfalls">
+          <div class="card-info">
+            <h4 data-en="Ouzoud Waterfalls" data-ar="شلالات أوزود">Ouzoud Waterfalls</h4>
+            <div class="price" data-price="25€">25€</div>
+          </div>
+        </article>
+
+        <!-- Essaouira -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/essaouira.jpg" alt="Essaouira">
+          <div class="card-info">
+            <h4 data-en="Essaouira Coastal Tour" data-ar="جولة ساحلية الصويرة">Essaouira Coastal Tour</h4>
+            <div class="price" data-price="20€">20€</div>
+          </div>
+        </article>
+
+        <!-- Ourika -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/ourika_valley.jpg" alt="Ourika">
+          <div class="card-info">
+            <h4 data-en="Ourika Valley" data-ar="وادي أوريكا">Ourika Valley</h4>
+            <div class="price" data-price="20€">20€</div>
+          </div>
+        </article>
+
+        <!-- Ouarzazate & Ait Ben Haddou -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/ouarzazate_ait_ben_haddou.jpg" alt="Ouarzazate">
+          <div class="card-info">
+            <h4 data-en="Ouarzazate & Ait Ben Haddou" data-ar="ورزازات و آيت بن حدو">Ouarzazate & Ait Ben Haddou</h4>
+            <div class="price" data-price="25€">25€</div>
+          </div>
+        </article>
+
+        <!-- Hot Air Balloons (updated image) -->
+        <article class="tour-card">
+          <div class="tri-bg"></div>
+          <img src="images/hot_air_balloons.jpg" alt="Hot Air Balloons">
+          <div class="card-info">
+            <h4 data-en="Hot Air Balloons" data-ar="المنطاد الهوائي">Hot Air Balloons</h4>
+            <div class="price" data-price="150€">150€</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h3 data-en="Contact & Bookings" data-ar="الاتصال والحجز" id="contact-title">Contact & Bookings</h3>
+      <p data-en="For fast booking, message us on WhatsApp." data-ar="للحجز السريع، راسلنا عبر واتساب." id="contact-sub">For fast booking, message us on WhatsApp.</p>
+      <a class="whatsapp-large" id="whatsapp-large" target="_blank" rel="noopener">Message on WhatsApp</a>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Bouhamid Desert Excursion Agency</p>
+      <p class="credit">©developped by rachyd noukhrane</p>
+    </footer>
+  </main>
+
+  <!-- Floating WhatsApp Button -->
+  <a id="whatsapp-float" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+      <path fill="currentColor" d="M20.52 3.48A11.93 11.93 0 0 0 12 0C5.373 0 .01 5.373 0 12c0 2.12.557 4.192 1.61 6.034L0 24l6.2-1.593A11.93 11.93 0 0 0 12 24c6.627 0 12-5.373 12-12 0-1.8-.396-3.496-1.48-5.04zM12 22.2c-1.64 0-3.25-.44-4.64-1.27l-.33-.2L4 21l.31-2.99-.21-.34A9.12 9.12 0 0 1 2 12c0-5.06 4.14-9.2 9.2-9.2 2.46 0 4.77.95 6.52 2.68A9.17 9.17 0 0 1 21.2 12c0 5.06-4.14 9.2-9.2 9.2z"/>
+      <path fill="currentColor" d="M17.5 14.3c-.3-.15-1.77-.87-2.05-.96-.28-.09-.48-.15-.68.15-.2.3-.8.96-.98 1.16-.18.2-.36.22-.66.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.8-1.67-2.1-.18-.3-.02-.46.13-.6.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.35-.02-.5-.07-.15-.68-1.64-.93-2.24-.24-.6-.48-.52-.68-.53-.18-.01-.38-.01-.58-.01-.2 0-.52.07-.8.35-.28.28-1.07 1.04-1.07 2.54s1.1 2.95 1.25 3.16c.15.2 2.16 3.5 5.24 4.9 3.08 1.4 3.08.93 3.64.87.57-.05 1.85-.76 2.11-1.49.26-.73.26-1.36.18-1.49-.07-.13-. .27-.2-.57-.35z"/>
+    </svg>
+  </a>
+
+  <!-- Bottom RGB contact rectangle -->
+  <a id="bottom-contact" class="bottom-contact" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+    <div class="bottom-inner">
+      <div class="bottom-text">
+        <span class="en">Need a service? Click to WhatsApp</span>
+        <span class="ar">بغيتي خدمة؟ ضغط هنا باش توصل لواتساب</span>
+      </div>
+      <div class="bottom-cta">Message / راسل</div>
+    </div>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
